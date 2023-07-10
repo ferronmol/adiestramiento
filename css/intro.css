@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'rotu';
+    src: url(/Assets/fonts/PermanentMarker.ttf);
+}  
+@font-face {
+    font-family: 'Raleway';
+    src: url(/Assets/fonts/Raleway.ttf)
+}
+
+body{
+   margin:0;
+   box-sizing: border-box;
+   
+}
+
+.nav__container{ 
+    display: flex;
+    background-color:transparent;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    z-index: 10;
+    
+  
+}
+.nav__menu{
+    width: 90%;
+    justify-content: space-around;
+   display: flex;
+  
+
+}
+.nav__item{
+   
+    list-style: none;
+    font: 2em sans-serif;
+    padding: 4px;
+    
+}
+.nav__link{
+   
+    text-decoration: none;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: black;
+    font-size: 3dvh;
+     
+}
+.nav__link__black{
+    color: black;
+    font-size: 3dvh;
+    
+}
+.intro__container{
+    position: absolute;
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:0;
+    z-index: 1;
+  height: 800px;
+    
+}   
+.nav__link:hover {
+    color: rgb(26, 247, 51);
+}
+.intro__tittle{
+    color: white;
+    position: relative;
+    top: -300px;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+}
+/* .intro__tittle2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: sans-serif;
+    position: relative;
+    top:60px;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+} */
+.intro__photo{
+  display: flex;
+  object-fit: cover;
+  margin: 0 auto;
+  width: 100%;
+  
+}
+.intro__container_photo{
+width: 1600px;
+margin: 0 auto;
+position: relative;
+bottom: 110px;
+z-index: -1;
+
+}
+.special{
+    color:rgb(9, 3, 173);
+}
+.link{
+    color: white;
+    text-decoration-line: none;
+}
+.img_video{
+    max-width: 100%;
+}

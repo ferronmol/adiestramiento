@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'rotu';
+    src: url(/Assets/fonts/PermanentMarker.ttf);
+}  
+@font-face {
+    font-family: 'Raleway';
+    src: url(/Assets/fonts/Raleway.ttf)
+}
+.main_services{
+    width: 1600px;
+    height: 950px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 100px;
+    z-index: 2;   
+}
+.bg_photo{
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.service__cont{
+    display: flex;
+    align-items: center;
+}
+.service {
+    position: relative;
+    z-index: 4;
+    width: 80%;
+    margin: 60px auto;
+    padding: 5em 0em;
+    background-color:hsl(182, 25%, 50%,80%);
+    border-radius: 30px;
+    font-size: 1.5em;
+}
+.service--kennel{
+  bottom: 4750px;  
+}
+.service--inhome{
+  bottom: 4000px;
+}
+.service--behavior{
+   bottom: 3100px; 
+}
+.service:hover{
+    background-color:hsl(182, 25%, 50%,100%);
+    box-shadow: 15px 15px 25px 5px black;
+}
+.service__photo{
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+   
+}
+.service__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service__tittle {
+    font-family: rotu;
+    font-size: 2em;
+    padding: 0;
+    margin:0;
+    align-items: center;
+
+}
+.service__text{
+    color: black;
+    font-family: raleway;
+    padding: 0 30px;  
+}
+
+.link {
+    padding: 20px;
+    margin: 10px;
+    }  
+.link_item{
+    padding: 20px; 
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+.link:hover{
+    background-color: white;
+    border-radius: 50%;
+}

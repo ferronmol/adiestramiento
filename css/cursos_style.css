@@ -1,0 +1,166 @@
+@font-face {
+    font-family: dogart;
+    src: url(/Assets/fonts/ennobled.ttf);
+}
+.nav__link--strong{
+  color: black;
+  font-weight: bold;
+}
+/* contiene la imagen  */
+.box{   
+    max-width: 1600px;
+    margin: 0 auto;
+    border-bottom: 4px solid gray;   
+}
+/* es la imagen subida ocupando el header */
+.img_box{
+    width: 100%;
+    position: relative;
+    bottom: 85px;
+    display: block;   
+}
+/* esta es la caja que contiene las 3 cajas de los cursos */
+.course__box{
+max-width: 1400px;
+background-color: transparent;
+margin: 0 auto;
+border-radius: 15px;
+display: flex;
+justify-content:space-between;
+padding: 2em;
+}
+
+/* es el h1 general  de los cursos */
+.tittle_course{
+    font-family: rotu;
+    color:black;
+     text-align: center;
+    font-size:3.5em; 
+}
+/* la caja entera con su h2 foto y texto */
+.course__minibox{
+display: flex;
+max-width: 400px;
+height: auto;
+background-color: hsl(25, 75%, 47%,0.9);
+border-radius: 15px;
+flex-direction: column;
+padding: 1em,0;
+border:2px solid black
+
+}
+.cont_img{
+   width: 100%;
+   height:300px;
+   position:relative;
+   bottom: 40px;
+   margin:0;
+
+}
+.img{
+    width: 100%;
+    height: 100%;  
+    object-fit:contain ;
+}
+
+.course__tittle{
+    text-align: center;
+    font-family: 'dogart';
+    font-size: 2.5em;
+    position: relative;
+    bottom: 15px;
+    background-color: beige; 
+     
+   
+}
+.course__text{
+text-align: center;
+margin:0;
+}
+.link_course{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+       
+}
+.link_item{
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    padding: 10px
+
+}
+.link_item:hover{
+    background-color: beige;
+}
+/* estilos de la tabla de precios */
+.rates {
+    border: 6px solid black;
+    text-align: center;
+    margin: 20px auto;
+    width: 1200px;
+    height: auto;
+    border-collapse: collapse;
+    
+    
+}
+
+.head {
+    padding: 20px;
+    font-size: 3em;
+    
+}
+.info_table {
+    padding-bottom: 20px;
+    font-size:3em;
+    font-variant: small-caps;
+    text-decoration: underline;
+    
+
+}
+.rates td {
+    border: 1px solid black;
+
+}
+.contenedor {
+    border: 1px solid black; 
+    background-color:lightcoral;
+    width: 1300px;
+    margin:0 auto;
+    height: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-bottom: 2em;
+}
+th {
+    border: 1px solid black;
+    font-size: 1.5em;
+}
+tfoot {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color:brown;
+    height: 40px;
+}
+.dog{
+font-family: url(/Assets/fonts/Raleway.ttf);
+font-weight: bold;
+
+}
+.dog:hover {
+    background-color: rgb(102, 59, 151);
+    
+}
+.datas:hover {
+    background-color:rgb(156, 156, 245);
+    font-weight: bold;
+}
+tr:hover {
+    background-color: white;
+}
+.datas{
+    font-size: 1.5em;
+}
+.info_foot{
+padding: 10px;
+}

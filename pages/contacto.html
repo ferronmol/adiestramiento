@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/intro.css">
+    <link rel="stylesheet" href="../css/style_contact.css">
+    <link rel="shortcut icon" href="../assets/images/logo-3perros.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Pongo primero la cabecera comun -->
+    <nav class="nav__container">
+        <ul class="nav__menu">
+            <li class="nav__item">
+                <a href="../index.html" class="nav__link nav__link--strong">Inicio</a>
+            </li>
+            <li class="nav__item">
+                <a href="../pages/servicios.html" class="nav__link nav__link--strong">Servicios</a>
+            </li>
+            <li class="nav__item">
+                <a href="../pages/cursos.html" class="nav__link nav__link--strong">Cursos</a>
+            </li>
+            <li class="nav__item">
+                <a href="../pages/metodologia.html" class="nav__link nav__link--strong">Metodología</a>
+            </li>
+            <li class="nav__item">
+                <a href="../pages/sobremi.html" class="nav__link nav__link--strong">Sobre Mi</a>
+            </li>
+            <li class="nav__item">
+                <a href="../pages/contacto.html" class="nav__link nav__link--strong">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- fin de cabecera comun -->
+<!-- genero un formulario de contacto -->
+ <div class="container_main">
+    <div class="form__container">
+    <div class="form__contact">
+       <h2 class="form__tittle">Formulario de contacto:</h2>
+         <form class="form" method="post">
+            <label class="label" for="name">Nombre:</label>
+            <input class="field" type="text" id="name" name="name" value="" placeholder="Nombre" required>
+            <label class="label" for="Subname">Apellidos:</label>
+            <input class="field" type="text" id="subname" name="subname" value="" placeholder="Apellidos" required>
+      
+            <label class="label" for="email">Correo electrónico:</label>
+            <input class="field" type="email" id="email" name="email" value="" placeholder="tucorreo@tucorreo.com" required>
+      
+            <label class="label" for="dog-name">Nombre de tu perro:</label>
+            <input class="field" type="text" id="dog-name" name="dog-name" value="" placeholder="Rocky">
+      
+            <label class="label" for="breed">Raza:</label>
+            <input class="field" type="text" id="breed" name="breed" value="" placeholder="Pastor Belga">
+      
+            <label class="label" for="image">Foto de tu perro:</label>
+            <input class="field field--file" type="file" id="image" name="image">
+            <div class="change">
+              <label class="label">¿Está entrenado tu perro?</label>
+              <input class="field" type="radio"  name="trained" value="Si"> Si
+              <input class="field" type="radio"  name="trained" value="No"> No
+            </div>
+            <label class="label" for="message">Mensaje:</label>
+            <textarea class="txtarea" id="message" name="message" required></textarea>
+            <div class="change change--button">
+               <input class="button" type="submit" name="Enviar" value="Enviar">
+               <input class="button" type="reset" name="limpiar" value="Borrar datos">
+            </div>
+        </form>
+       </div>
+     </div>
+  </div>
+  
+</body>
+
+</html>
